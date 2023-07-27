@@ -345,14 +345,24 @@ body footer section .container .text p {
   font-weight: 400;
   line-height: 150%;
 }
+body footer section .container .card-box {
+  display: flex;
+  gap: 80px;
+}
 body footer section .container .card-box .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 28px;
+  padding-top: 50px;
+  width: 340px;
+  height: 440px;
+  border-radius: 30px;
+  background: #0F1F4B;
+  box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
 }
 body footer section .container .card-box .card .top {
-  max-width: 220px;
+  width: 220px;
   padding-bottom: 32px;
   border-bottom: 1px solid #2A407C;
 }
@@ -402,4 +412,20 @@ body footer section .container .card-box .card a {
   align-items: center;
   border-radius: 68px;
   border: 1px solid #2A407C;
+}
+body footer section .container .card-box .b2 {
+  background: #FFF;
+}
+body footer section .container .card-box .b2 .top h3 {
+  color: var(--text-main, #172755);
+}
+body footer section .container .card-box .b2 .icon h3 {
+  color: var(--text-main, #172755);
+}
+body footer section .container .card-box .b2 .icon h3 b {
+  color: var(--text-main, #172755);
+}
+body footer section .container .card-box .b2 a {
+  background: #EF2A82;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
