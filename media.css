@@ -166,4 +166,11 @@
     background-size: 410px;
     background-color: #FFF;
   }
+  body footer #pricing .container .card-box {
+    justify-content: center;
+  }
+  body footer #pricing .container .card-box .card {
+    width: 280px;
+    height: 358px;
+  }
 }/*# sourceMappingURL=media.css.map */

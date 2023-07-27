@@ -295,11 +295,13 @@ body{
     }
     footer{
         background-image: linear-gradient(357deg, #172755 70%,#EF2A82 70% 73%, transparent 73% 100%);
-        section{
-            padding-top:272px ;
+       #pricing{
             .container{
+                padding-top:472px ;
                 flex-direction: column;
                 gap: 81px;
+                border-bottom: 1px solid #2A407C;
+                padding-bottom: 60px;
                 .text{
                     display: flex;
                     flex-direction: column;
@@ -317,6 +319,7 @@ body{
                 .card-box{
                     display: flex;
                     gap: 80px;
+                    overflow-x: scroll;
                     .card{
                         display: flex;
                         flex-direction: column;
@@ -399,5 +402,6 @@ body{
                 }
            }
         }
+        
     }
 }
