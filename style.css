@@ -20,7 +20,7 @@ body {
   background: #F8F9FF;
 }
 body header {
-  background-image: linear-gradient(178deg, #172755 70%, #EF2A82 70% 73%, transparent 73% 100%);
+  background-image: linear-gradient(169.5deg, #172755 88%, #EF2A82 88% 89.5%, transparent 89.5% 100%);
 }
 body header a {
   font-size: 16px;
@@ -71,7 +71,7 @@ body header nav .container .nav-reght a:nth-child(2) {
 }
 body header #hero .container {
   padding-top: 85px;
-  padding-bottom: 400px;
+  padding-bottom: 293px;
 }
 body header #hero .container .hero {
   display: flex;
@@ -129,8 +129,10 @@ body header #hero .container .hero .hero-right img:nth-child(2) {
   position: absolute;
   right: 371px;
 }
-body main #feature {
-  padding-bottom: 130px;
+body main {
+  display: flex;
+  flex-direction: column;
+  gap: 130px;
 }
 body main #feature .container {
   flex-direction: column;
@@ -196,7 +198,6 @@ body main #feature .container .card-box .card .text p {
 body main #screenshots .container {
   flex-direction: column;
   gap: 120px;
-  padding-bottom: 114px;
 }
 body main #screenshots .container .a1 {
   display: flex;
@@ -313,22 +314,16 @@ body main #screenshots .container .a3 .div {
   border-radius: 30px;
 }
 body footer {
-  background-image: linear-gradient(357deg, #172755 70%, #EF2A82 70% 73%, transparent 73% 100%);
+  background-image: linear-gradient(-8.5deg, #172755 75%, #EF2A82 75% 76.5%, transparent 76.5% 100%);
+  padding-top: 386px;
 }
 body footer #pricing .container {
-  padding-top: 472px;
-  flex-direction: column;
-  gap: 81px;
-  border-bottom: 1px solid #2A407C;
   padding-bottom: 60px;
-}
-body footer #pricing .container .text {
-  display: flex;
   flex-direction: column;
   gap: 30px;
   align-items: center;
 }
-body footer #pricing .container .text h2 {
+body footer #pricing .container h2 {
   max-width: 620px;
   color: #172755;
   text-align: center;
@@ -338,36 +333,42 @@ body footer #pricing .container .text h2 {
   line-height: normal;
   color: #FFF;
 }
-body footer #pricing .container .text p {
+body footer #pricing .container p {
   text-align: center;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
 }
-body footer #pricing .container .card-box {
-  display: flex;
+body footer #pricing .b1 {
+  border-bottom: 1px solid #2A407C;
   gap: 80px;
-  overflow-x: scroll;
+  flex-direction: row;
+  overflow-x: hidden;
+  padding-bottom: 100px;
 }
-body footer #pricing .container .card-box .card {
+body footer #pricing .b1 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 28px;
-  padding-top: 50px;
+  padding: 60px;
   width: 340px;
   height: 440px;
   border-radius: 30px;
   background: #0F1F4B;
   box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
 }
-body footer #pricing .container .card-box .card .top {
+body footer #pricing .b1 .card .line {
   width: 220px;
-  padding-bottom: 32px;
-  border-bottom: 1px solid #2A407C;
+  height: 1px;
+  flex-shrink: 0;
+  background: #2A407C;
 }
-body footer #pricing .container .card-box .card .top h3 {
+body footer #pricing .b1 .card .top {
+  padding-bottom: 9px;
+}
+body footer #pricing .b1 .card .top h3 {
   color: #FFF;
   text-align: center;
   font-size: 30px;
@@ -375,19 +376,19 @@ body footer #pricing .container .card-box .card .top h3 {
   font-weight: 700;
   line-height: normal;
 }
-body footer #pricing .container .card-box .card .top p {
+body footer #pricing .b1 .card .top p {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
   text-align: center;
 }
-body footer #pricing .container .card-box .card .icon {
+body footer #pricing .b1 .card .icon {
   max-width: 87px;
   text-align: center;
   padding-bottom: 20px;
 }
-body footer #pricing .container .card-box .card .icon h3 {
+body footer #pricing .b1 .card .icon h3 {
   color: #FFF;
   text-align: center;
   font-size: 30px;
@@ -395,18 +396,19 @@ body footer #pricing .container .card-box .card .icon h3 {
   font-weight: 700;
   line-height: normal;
 }
-body footer #pricing .container .card-box .card .icon h3 b {
+body footer #pricing .b1 .card .icon h3 b {
   color: #FFF;
   font-size: 60px;
 }
-body footer #pricing .container .card-box .card .icon p {
+body footer #pricing .b1 .card .icon p {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
   font-size: 14px;
+  text-align: center;
 }
-body footer #pricing .container .card-box .card a {
+body footer #pricing .b1 .card a {
   display: inline-flex;
   height: 50px;
   padding: 0px 80px;
@@ -414,19 +416,44 @@ body footer #pricing .container .card-box .card a {
   border-radius: 68px;
   border: 1px solid #2A407C;
 }
-body footer #pricing .container .card-box .b2 {
+body footer #pricing .b1 .b2 {
   background: #FFF;
 }
-body footer #pricing .container .card-box .b2 .top h3 {
+body footer #pricing .b1 .b2 .top h3 {
   color: var(--text-main, #172755);
 }
-body footer #pricing .container .card-box .b2 .icon h3 {
+body footer #pricing .b1 .b2 .line {
+  background: #D3D9E9;
+}
+body footer #pricing .b1 .b2 .icon h3 {
   color: var(--text-main, #172755);
 }
-body footer #pricing .container .card-box .b2 .icon h3 b {
+body footer #pricing .b1 .b2 .icon h3 b {
   color: var(--text-main, #172755);
 }
-body footer #pricing .container .card-box .b2 a {
+body footer #pricing .b1 .b2 a {
   background: #EF2A82;
   border: none;
+  color: #FFF;
+}
+body footer #bottom .container {
+  padding-top: 69px;
+  padding-bottom: 100px;
+  justify-content: space-between;
+}
+body footer #bottom .container .menu {
+  display: flex;
+  gap: 36px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+body footer #bottom .container .menu2 {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  flex-wrap: wrap;
+}
+body footer #bottom .container .menu2 li a i {
+  width: 24.609px;
+  height: 20px;
 }/*# sourceMappingURL=style.css.map */
