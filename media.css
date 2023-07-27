@@ -1,0 +1,169 @@
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 335px;
+  }
+  body header nav .container {
+    gap: 100px;
+  }
+  body header nav .container label {
+    display: block;
+  }
+  body header nav .container .nav-left {
+    height: 30px;
+    gap: 0;
+  }
+  body header nav .container .nav-left .logo img {
+    width: 138.017px;
+    height: 30px;
+  }
+  body header nav .container .nav-left .menu {
+    width: 0;
+  }
+  body header nav .container .nav-reght {
+    gap: 18px;
+  }
+  body header nav .container .nav-reght a:nth-child(2) {
+    display: none;
+  }
+  body header nav .container input:checked + .nav-left > .menu {
+    width: 100px;
+    position: absolute;
+  }
+  body header #hero .container .hero {
+    gap: 26px;
+    flex-direction: column-reverse;
+  }
+  body header #hero .container .hero .hero-right {
+    display: none;
+  }
+  body header #hero .container .hero .media-img {
+    display: inline-block;
+    width: 335px;
+    height: 231.07px;
+    flex-shrink: 0;
+    border-radius: 12.5px;
+    background: url("img/main-screen2.svg");
+    background-position: center;
+    background: size 350px;
+  }
+  body header #hero .container .hero .hero-left {
+    max-width: 335px;
+    padding: 0;
+  }
+  body header #hero .container .hero .hero-left .text h1 {
+    font-size: 31px;
+    line-height: 120%;
+  }
+  body header #hero .container .hero .hero-left .text p {
+    height: 81px;
+    font-size: 18px;
+    line-height: 150%;
+    overflow: hidden;
+  }
+  body header #hero .container .hero .hero-left a {
+    max-width: 335px;
+  }
+  body main #feature .container {
+    gap: 40px;
+  }
+  body main #feature .container .text {
+    align-items: start;
+    gap: 20px;
+  }
+  body main #feature .container .text h2 {
+    text-align: start;
+    font-size: 30px;
+  }
+  body main #feature .container .text p {
+    text-align: start;
+    font-size: 14px;
+  }
+  body main #feature .container .card-box {
+    gap: 35px;
+  }
+  body main #feature .container .card-box .card {
+    flex-direction: row;
+    align-items: start;
+  }
+  body main #feature .container .card-box .card .text {
+    align-items: start;
+    gap: 9px;
+  }
+  body main #feature .container .card-box .card .text h3 {
+    text-align: start;
+  }
+  body main #feature .container .card-box .card .text p {
+    text-align: start;
+    font-size: 14px;
+  }
+  body main #screenshots .container {
+    gap: 60px;
+  }
+  body main #screenshots .container .a1 {
+    gap: 30px;
+  }
+  body main #screenshots .container .a1 .text {
+    max-width: 335px;
+    gap: 20px;
+  }
+  body main #screenshots .container .a1 .text h2 {
+    max-width: 335px;
+    font-size: 30px;
+    line-height: normal;
+  }
+  body main #screenshots .container .a1 .text p {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  body main #screenshots .container .a1 .div {
+    max-width: 335px;
+    max-height: 228px;
+    background-size: 410px;
+    background-color: #FFF;
+  }
+  body main #screenshots .container .a2 {
+    gap: 30px;
+    flex-direction: column-reverse;
+  }
+  body main #screenshots .container .a2 .text {
+    max-width: 335px;
+    gap: 20px;
+  }
+  body main #screenshots .container .a2 .text h2 {
+    max-width: 335px;
+    font-size: 30px;
+    line-height: normal;
+  }
+  body main #screenshots .container .a2 .text p {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  body main #screenshots .container .a2 .div {
+    max-width: 335px;
+    max-height: 228px;
+    background-size: 410px;
+    background-color: #FFF;
+  }
+  body main #screenshots .container .a3 {
+    gap: 30px;
+  }
+  body main #screenshots .container .a3 .text {
+    max-width: 335px;
+    gap: 20px;
+  }
+  body main #screenshots .container .a3 .text h2 {
+    max-width: 335px;
+    font-size: 30px;
+    line-height: normal;
+  }
+  body main #screenshots .container .a3 .text p {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  body main #screenshots .container .a3 .div {
+    max-width: 335px;
+    max-height: 228px;
+    background-size: 410px;
+    background-color: #FFF;
+  }
+}/*# sourceMappingURL=media.css.map */
