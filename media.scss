@@ -7,8 +7,12 @@
         background-image: linear-gradient(168.5deg, #172755 85%,#EF2A82 85% 86.5%, transparent 86.5% 100%);
         padding-bottom: 177px;
         nav{
+            background: #172755;
+            box-shadow: 0px 4px 4px 0px #12214D;
             .container{
                 gap: 100px;
+                padding-top: 20px;
+                padding-bottom: 20px;
               label{
                 display: block;
             }
@@ -22,7 +26,21 @@
                     }
                 }
                 .menu{
-                    width: 0;
+                    max-width: 0;
+                    background: #EF2A82 ;
+                    top: 100px;
+                    border-radius: 15px;
+                    position: absolute;
+                    right: 20px;
+                    transition: 1s;
+                    gap: 10px;
+                    li{
+                        height: 20px;
+                        a{
+                            color: #FFF;
+                        }
+                    }
+                
                 }
             }
             .nav-reght{
@@ -32,13 +50,15 @@
                 }
             }
             input:checked +.nav-left>.menu{
-                width: 100px;
-                position: absolute;
+                max-width: 160px;
+                height: 200px;
+                padding: 30px 50px;
             }
             }
         }
         #hero{
             .container{
+                padding-top: 29px;
                 padding-bottom:0;
                 .hero{
                     gap: 26px;
@@ -73,7 +93,7 @@
 
                         }
                         a{
-                            max-width: 335px;
+                            max-width: 169px;
                         }
                     }
                 }
@@ -191,10 +211,14 @@
         }
     }
     footer{
+        background-image: linear-gradient(-9.5deg, #172755 85%,#EF2A82 85% 86.5%, transparent 86.5% 100%);
         #pricing{
+            padding: 0;
             .container{
-                align-items: start;
+                padding-top: 205px;
+                    align-items: start;
                     gap: 20px;
+                    padding-bottom: 42px;
                     h2{
                         text-align: start;
                         font-size: 30px;
@@ -206,9 +230,10 @@
             }
             .b1{
                 gap: 20px;
-                margin: 0 0;
-                justify-content: center;
+                margin: 0px 0px;
                 overflow-x: scroll;
+                scrollbar-width: 0;
+                padding: 17px 0px 53px 0px;
                 .card{
                     width: 280px;
                     height: 358px;
