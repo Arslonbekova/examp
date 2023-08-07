@@ -43,16 +43,27 @@
                 
                 }
             }
-            .nav-reght{
+            .nav-right{
                 gap: 18px;
+                transition: 1s;
                 a:nth-child(2){
                     display: none;
+                    position: absolute;
+                    top: 277px;
+                    right: 22px;
+                    border: none;
+                    color :#FFF
                 }
             }
             input:checked +.nav-left>.menu{
                 max-width: 160px;
                 height: 200px;
                 padding: 30px 50px;
+            }
+            input:checked +.nav-left+.nav-right{
+                a:nth-child(2){
+                    display: inline-block;    
+                }
             }
             }
         }
@@ -270,6 +281,9 @@
                         max-width: 206px;
                     }
                 }
+            }
+            .b1::-webkit-scrollbar{
+                width: 0px;
             }
         }
         #bottom{

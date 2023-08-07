@@ -42,16 +42,25 @@
   body header nav .container .nav-left .menu li a {
     color: #FFF;
   }
-  body header nav .container .nav-reght {
+  body header nav .container .nav-right {
     gap: 18px;
+    transition: 1s;
   }
-  body header nav .container .nav-reght a:nth-child(2) {
+  body header nav .container .nav-right a:nth-child(2) {
     display: none;
+    position: absolute;
+    top: 277px;
+    right: 22px;
+    border: none;
+    color: #FFF;
   }
   body header nav .container input:checked + .nav-left > .menu {
     max-width: 160px;
     height: 200px;
     padding: 30px 50px;
+  }
+  body header nav .container input:checked + .nav-left + .nav-right a:nth-child(2) {
+    display: inline-block;
   }
   body header #hero .container {
     padding-top: 29px;
@@ -255,6 +264,9 @@
   }
   body footer #pricing .b1 .card a {
     max-width: 206px;
+  }
+  body footer #pricing .b1::-webkit-scrollbar {
+    width: 0px;
   }
   body footer #bottom .container .menu {
     display: none;

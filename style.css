@@ -55,13 +55,13 @@ body header nav .container .nav-left .menu {
   flex-wrap: wrap;
   overflow: hidden;
 }
-body header nav .container .nav-reght {
+body header nav .container .nav-right {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
   align-items: center;
 }
-body header nav .container .nav-reght a:nth-child(2) {
+body header nav .container .nav-right a:nth-child(2) {
   display: inline-flex;
   height: 40px;
   padding: 1px 53px;
